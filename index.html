@@ -5,28 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML Recap</title>
-    <link ref="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./index.css" />
 </head>
 <body>
-    <h1> Login</h1>
+    <h1> HTML Fundamentals</h1>
+    <div> 
+            <nav>
+                <ul>
+                    <li>
+                        <a href="./Home.html">Home </a>
+                    </li>
+                    <li>
+                        <a href="./About.html">About </a>
+                    </li>
+                    <li>
+                        <a href="./Contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+            </div>
+    <h4>Login or Create an account</h4> 
+    
     <div>
-        <h2>New User</h2>
         <form>
+            <fieldset>
+               <legend><h2>Login</h2></legend>
+                <p>
+                    <labe><strong>Username: <input type="text"/></strong></labe>
+                </p>
+                <p>
+                    <label><strong>Password: <input type="text"/></strong></label>
+                </p>
+            </fieldset>
+        </div>
+        </form>
+
+        <br />
+        <hr />
+        <br />
+
+        <div>
+        <form>
+            <fieldset>
+                <legend><h2>New User</h2></legend>
             <p>
-               <label> Login Name: <input /></label>
+               <label><strong>Login Name:</strong>  <input type="text"/></label>
             </p>
             <p>
-                <label> User Email: <input type="email" name="email" /></label>
+                <label><strong>User Email:</strong> <input type="email" name="email" /></label>
             </p>
             <p>
-                <label> User Phone: <input type="tel" name="tel"/><label>
+                <label><strong>User Phone:</strong> <input type="number" name="number"/><label>
             </p>
+                
+            </fieldset>
         </form>
     </div>
-    <nav>
-        <a href=""> </a>
-        <a href=""> </a>
-    </nav>
+
+    <br />
+
+    <h1> Enjoy this video</h1>
+    <p>
+        It's a helpful HTML tutorial!
+    </p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/qz0aGYrrlhU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </body>
 
 </html>
